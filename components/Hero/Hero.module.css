@@ -1,6 +1,7 @@
 .hero__container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  padding-left: 147px;
 }
 .hero {
   max-width: 1240px;
