@@ -1,0 +1,51 @@
+.container {
+  max-width: 1660px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin: 185px 0 45px;
+  text-align: end;
+  padding-right: 40px;
+}
+.films {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+
+  margin: 0 auto;
+  gap: 0;
+}
+.films__card {
+  padding: 30px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 420px;
+  margin: 0 auto;
+  background-color: #2c2c54;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #92929231;
+}
+.film__img {
+  border-radius: 24px;
+}
+.films__btn {
+  margin-top: 25px;
+  padding: 20px 100px;
+  color: #2c2c54;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #686de0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.films__btn:active {
+  transform: scale(0.95);
+}

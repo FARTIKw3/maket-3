@@ -1,0 +1,32 @@
+.hero {
+  max-width: 1240px;
+  color: #fff;
+  margin: 60 auto 0;
+}
+.hero__title {
+  max-width: 1000px;
+  font-size: 30px;
+  line-height: 200%;
+  font-weight: bold;
+}
+.hero__paragraph {
+  margin: 50px 0;
+  font-size: 18px;
+  max-width: 520px;
+  letter-spacing: 2.5px;
+  line-height: 130%;
+}
+.hero__btn {
+  padding: 22px 56px;
+  color: #2c2c54;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #686de0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.hero__btn:active {
+  transform: scale(0.95);
+}
