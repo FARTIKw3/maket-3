@@ -1,11 +1,11 @@
 .hero__container {
   display: flex;
   justify-content: center;
+  margin: 60 auto 0;
 }
 .hero {
   max-width: 1240px;
   color: #fff;
-  margin: 60 auto 0;
 }
 .hero__title {
   max-width: 1000px;
